@@ -1,0 +1,66 @@
+body {
+	background-color: #f0f0f0;
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	width: 500px;
+	margin: 40px auto;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+	margin: 20px;
+}
+
+.contact-form h2 {
+	margin-top: 0;
+}
+
+.contact-form label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.contact-form input[type="text"],.contact-form input[type="email"],.contact-form textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+}
+
+.contact-form textarea {
+	height: 150px;
+}
+
+.contact-form input[type="submit"] {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+
+.contact-form ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.contact-form li {
+	margin-bottom: 10px;
+}
+
+.contact-form li:before {
+	content: "\2022";
+	margin-right: 10px;
+	color: #4CAF50;
+}
